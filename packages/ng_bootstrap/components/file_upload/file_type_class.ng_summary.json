@@ -1,0 +1,13 @@
+{
+  "ngDeps": null,
+  "type": {
+    "FileType": {
+      "class": "Identifier",
+      "name": "FileType",
+      "moduleUrl": "asset:ng_bootstrap/lib/components/file_upload/file_type_class.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

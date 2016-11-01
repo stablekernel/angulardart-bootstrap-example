@@ -1,0 +1,54 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "file_select_directive.dart",
+        "5": false
+      },
+      {
+        "1": "file_drop_directive.dart",
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "file_select_directive.dart"
+      },
+      {
+        "1": "file_drop_directive.dart"
+      }
+    ],
+    "6": "file_upload.dart"
+  },
+  "type": {
+    "BS_FILE_UPLOAD_DIRECTIVES": {
+      "class": "Identifier",
+      "name": "BS_FILE_UPLOAD_DIRECTIVES",
+      "moduleUrl": "asset:ng_bootstrap/lib/components/file_upload/file_upload.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "BsFileSelectDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsFileDropDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ]
+    }
+  },
+  "alias": {
+    "BS_FILE_UPLOAD_DIRECTIVES": [
+      "BsFileSelectDirective",
+      "BsFileDropDirective"
+    ]
+  }
+}

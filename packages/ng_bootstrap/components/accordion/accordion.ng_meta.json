@@ -1,0 +1,306 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:node_shims/js.dart",
+        "5": false
+      },
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/collapse/collapse.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "BsAccordionComponent"
+      },
+      {
+        "1": "BsAccordionPanelComponent",
+        "5": [
+          {
+            "1": "BsAccordionComponent",
+            "4": "accordion"
+          }
+        ],
+        "6": [
+          "OnInit",
+          "OnDestroy"
+        ],
+        "7": [
+          {
+            "2": "BsCollapseDirective"
+          }
+        ]
+      }
+    ],
+    "6": "accordion.dart",
+    "7": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:ng_bootstrap/components/collapse/collapse.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "type": {
+    "NG_BOOTSTRAP_ACCORDION_DIRECTIVES": {
+      "class": "Identifier",
+      "name": "NG_BOOTSTRAP_ACCORDION_DIRECTIVES",
+      "moduleUrl": "asset:ng_bootstrap/lib/components/accordion/accordion.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Type",
+              "name": "BsAccordionComponent",
+              "moduleUrl": "asset:ng_bootstrap/lib/components/accordion/accordion.dart",
+              "prefix": null,
+              "isHost": false,
+              "value": null,
+              "diDeps": []
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "BsAccordionComponent",
+            "moduleUrl": "asset:ng_bootstrap/lib/components/accordion/accordion.dart",
+            "prefix": null,
+            "isHost": false,
+            "value": null,
+            "diDeps": []
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null,
+          "useProperty": null,
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Type",
+              "name": "BsAccordionPanelComponent",
+              "moduleUrl": "asset:ng_bootstrap/lib/components/accordion/accordion.dart",
+              "prefix": null,
+              "isHost": false,
+              "value": null,
+              "diDeps": [
+                {
+                  "token": {
+                    "value": null,
+                    "identifier": {
+                      "class": "Identifier",
+                      "name": "BsAccordionComponent",
+                      "moduleUrl": "asset:ng_bootstrap/lib/components/accordion/accordion.dart",
+                      "prefix": null,
+                      "value": null
+                    },
+                    "identifierIsInstance": false
+                  },
+                  "query": null,
+                  "viewQuery": null,
+                  "value": null,
+                  "isAttribute": false,
+                  "isSelf": false,
+                  "isHost": false,
+                  "isSkipSelf": false,
+                  "isOptional": false,
+                  "isValue": false
+                }
+              ]
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "BsAccordionPanelComponent",
+            "moduleUrl": "asset:ng_bootstrap/lib/components/accordion/accordion.dart",
+            "prefix": null,
+            "isHost": false,
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "BsAccordionComponent",
+                    "moduleUrl": "asset:ng_bootstrap/lib/components/accordion/accordion.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "query": null,
+                "viewQuery": null,
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null,
+          "useProperty": null,
+          "multi": false,
+          "deps": null
+        }
+      ]
+    },
+    "BsAccordionComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "bs-accordion",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "BsAccordionComponent",
+        "moduleUrl": "asset:ng_bootstrap/lib/components/accordion/accordion.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {
+        "closeOthers": "closeOthers"
+      },
+      "inputTypes": {
+        "closeOthers": " bool"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {
+        "class.panel-group": "true"
+      },
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<ng-content></ng-content>",
+        "templateUrl": "asset:ng_bootstrap/lib/components/accordion/accordion.dart",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": [
+          "*"
+        ]
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "BsAccordionPanelComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "bs-accordion-panel",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "BsAccordionPanelComponent",
+        "moduleUrl": "asset:ng_bootstrap/lib/components/accordion/accordion.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "BsAccordionComponent",
+                "moduleUrl": "asset:ng_bootstrap/lib/components/accordion/accordion.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "query": null,
+            "viewQuery": null,
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {
+        "panelClass": "panelClass",
+        "heading": "heading",
+        "isDisabled": "isDisabled",
+        "isOpen": "isOpen"
+      },
+      "inputTypes": {
+        "panelClass": " String",
+        "heading": " String",
+        "isDisabled": " bool",
+        "isOpen": " bool"
+      },
+      "outputs": {
+        "isOpenChange": "isOpenChange"
+      },
+      "hostListeners": {},
+      "hostProperties": {
+        "class.panel-open": "isOpen"
+      },
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        0,
+        1
+      ],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"panel\" [ngClass]=\"panelClass\">\n  <div class=\"panel-heading\" (click)=\"toggleOpen($event)\">\n    <h4 class=\"panel-title\">\n      <a href tabindex=\"0\" class=\"accordion-toggle\">\n        {{heading}}\n        <ng-content select=\"header\"></ng-content>\n      </a>\n    </h4>\n  </div>\n  <div class=\"panel-collapse\" [bsCollapse]=\"!isOpen\">\n    <div class=\"panel-body\">\n      <ng-content></ng-content>\n    </div>\n  </div>\n</div>\n  ",
+        "templateUrl": "asset:ng_bootstrap/lib/components/accordion/accordion_panel.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": [
+          "header",
+          "*"
+        ]
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {
+    "NG_BOOTSTRAP_ACCORDION_DIRECTIVES": [
+      "BsAccordionComponent",
+      "BsAccordionPanelComponent"
+    ]
+  }
+}

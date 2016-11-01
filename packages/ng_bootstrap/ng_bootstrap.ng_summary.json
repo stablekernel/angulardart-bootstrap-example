@@ -1,0 +1,361 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:ng_bootstrap/components/accordion/accordion.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/alert/alert.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/button/radio.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/button/toggle.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/carousel/carousel.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/collapse/collapse.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/datepicker/index.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/dropdown/index.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/file_upload/file_upload.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/modal/modal.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/pagination/pager.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/pagination/pagination.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/progress/progress.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/table/table_directives.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/tabs/tabs.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/tabsx/tabsx.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/tooltip/tooltip.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/components/typeahead/typeahead.dart",
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "package:ng_bootstrap/core/position.dart"
+      },
+      {
+        "1": "components/accordion/accordion.dart"
+      },
+      {
+        "1": "components/alert/alert.dart"
+      },
+      {
+        "1": "components/button/radio.dart"
+      },
+      {
+        "1": "components/button/toggle.dart"
+      },
+      {
+        "1": "components/carousel/carousel.dart"
+      },
+      {
+        "1": "components/collapse/collapse.dart"
+      },
+      {
+        "1": "components/datepicker/index.dart"
+      },
+      {
+        "1": "components/dropdown/index.dart"
+      },
+      {
+        "1": "components/file_upload/file_upload.dart"
+      },
+      {
+        "1": "components/modal/modal.dart"
+      },
+      {
+        "1": "components/pagination/pager.dart"
+      },
+      {
+        "1": "components/pagination/pagination.dart"
+      },
+      {
+        "1": "components/progress/progress.dart"
+      },
+      {
+        "1": "components/table/table_directives.dart"
+      },
+      {
+        "1": "components/tabs/tabs.dart"
+      },
+      {
+        "1": "components/tabsx/tabsx.dart"
+      },
+      {
+        "1": "components/tooltip/tooltip.dart"
+      },
+      {
+        "1": "components/typeahead/typeahead.dart"
+      }
+    ],
+    "6": "ng_bootstrap.dart"
+  },
+  "type": {
+    "BS_DIRECTIVES": {
+      "class": "Identifier",
+      "name": "BS_DIRECTIVES",
+      "moduleUrl": "asset:ng_bootstrap/lib/ng_bootstrap.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "BsAccordionComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsAccordionPanelComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsAlertComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsCarouselComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsCollapseDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsDropdownDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsDropdownMenuDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsDropdownToggleDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BS_FILE_UPLOAD_DIRECTIVES",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsModalComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsPagerComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsPaginationComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsPagerComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsProgressComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsRadioButtonDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsToggleButtonDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsTabComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsTabsComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsTabContentComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsTabPanelDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BS_TABSX_DIRECTIVES",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsTooltipComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsDatePickerComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsDatePickerPopupComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsTypeAheadComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BS_TABLE_DIRECTIVES",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ]
+    }
+  },
+  "alias": {
+    "BS_DIRECTIVES": [
+      "BsAccordionComponent",
+      "BsAccordionPanelComponent",
+      "BsAlertComponent",
+      "BsCarouselComponent",
+      "BsCollapseDirective",
+      "BsDropdownDirective",
+      "BsDropdownMenuDirective",
+      "BsDropdownToggleDirective",
+      "BS_FILE_UPLOAD_DIRECTIVES",
+      "BsModalComponent",
+      "BsPagerComponent",
+      "BsPaginationComponent",
+      "BsPagerComponent",
+      "BsProgressComponent",
+      "BsRadioButtonDirective",
+      "BsToggleButtonDirective",
+      "BsTabComponent",
+      "BsTabsComponent",
+      "BsTabContentComponent",
+      "BsTabPanelDirective",
+      "BS_TABSX_DIRECTIVES",
+      "BsTooltipComponent",
+      "BsDatePickerComponent",
+      "BsDatePickerPopupComponent",
+      "BsTypeAheadComponent",
+      "BS_TABLE_DIRECTIVES"
+    ]
+  }
+}

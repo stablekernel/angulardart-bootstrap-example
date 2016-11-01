@@ -1,0 +1,179 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "file_select_directive.dart",
+        "5": false
+      },
+      {
+        "1": "file_drop_directive.dart",
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "file_select_directive.dart"
+      },
+      {
+        "1": "file_drop_directive.dart"
+      }
+    ],
+    "6": "file_upload.dart",
+    "7": [
+      {
+        "1": "file_select_directive.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "file_drop_directive.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "type": {
+    "BS_FILE_UPLOAD_DIRECTIVES": {
+      "class": "Identifier",
+      "name": "BS_FILE_UPLOAD_DIRECTIVES",
+      "moduleUrl": "asset:ng_bootstrap/lib/components/file_upload/file_upload.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Type",
+              "name": "BsFileSelectDirective",
+              "moduleUrl": "asset:ng_bootstrap/lib/components/file_upload/file_select_directive.dart",
+              "prefix": null,
+              "isHost": false,
+              "value": null,
+              "diDeps": []
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "BsFileSelectDirective",
+            "moduleUrl": "asset:ng_bootstrap/lib/components/file_upload/file_select_directive.dart",
+            "prefix": null,
+            "isHost": false,
+            "value": null,
+            "diDeps": []
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null,
+          "useProperty": null,
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Type",
+              "name": "BsFileDropDirective",
+              "moduleUrl": "asset:ng_bootstrap/lib/components/file_upload/file_drop_directive.dart",
+              "prefix": null,
+              "isHost": false,
+              "value": null,
+              "diDeps": []
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "BsFileDropDirective",
+            "moduleUrl": "asset:ng_bootstrap/lib/components/file_upload/file_drop_directive.dart",
+            "prefix": null,
+            "isHost": false,
+            "value": null,
+            "diDeps": []
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null,
+          "useProperty": null,
+          "multi": false,
+          "deps": null
+        }
+      ]
+    },
+    "BsFileSelectDirective": {
+      "class": "Directive",
+      "isComponent": false,
+      "selector": "[bsFileSelect]",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "BsFileSelectDirective",
+        "moduleUrl": "asset:ng_bootstrap/lib/components/file_upload/file_select_directive.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {
+        "filesChange": "filesChange"
+      },
+      "hostListeners": {
+        "change": "onChange($event)"
+      },
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "BsFileDropDirective": {
+      "class": "Directive",
+      "isComponent": false,
+      "selector": "bs-file-drop, [bsFileDrop]",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "BsFileDropDirective",
+        "moduleUrl": "asset:ng_bootstrap/lib/components/file_upload/file_drop_directive.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {
+        "fileOver": "fileOver",
+        "filesChange": "filesChange"
+      },
+      "hostListeners": {
+        "drop": "onDrop($event)",
+        "dragover": "onDragOver($event)",
+        "dragleave": "onDragLeave($event)"
+      },
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {
+    "BS_FILE_UPLOAD_DIRECTIVES": [
+      "BsFileSelectDirective",
+      "BsFileDropDirective"
+    ]
+  }
+}

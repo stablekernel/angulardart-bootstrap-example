@@ -1,0 +1,76 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:ng_bootstrap/ng_bootstrap.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "AppComponent",
+        "7": [
+          {
+            "2": "BS_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "app_component.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:ng_bootstrap/ng_bootstrap.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "type": {
+    "AppComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "my-app",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "AppComponent",
+        "moduleUrl": "asset:angulardart_bootstrap_example/lib/app_component.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<div class=\"container-fluid\">\n    <div class=\"container row\">\n        <div class=\"jumbotron\">\n            My first AngularDart Bootstrapped web app!\n        </div>\n        <bs-alert [dismissible]=\"true\">This alert is dismissible</bs-alert>\n        <bs-alert type=\"info\">This alert is info</bs-alert>\n\n        <bs-alert *ngFor=\"let alert of alerts; let i = index\" [type]=\"alert['type']\" (close)=\"closeAlert(i)\"\n                  [dismissible]=\"alert['dismissible']\">\n            {{ alert['msg'] }}\n        </bs-alert>\n\n        <bs-alert [timeout]=\"3000\">This alert will dismiss in 3s</bs-alert>\n\n        <button type=\"button\" class='btn btn-primary' (click)=\"addAlert()\">Add Alert</button>\n    </div>\n</div>",
+        "templateUrl": "asset:angulardart_bootstrap_example/lib/app_component.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:angulardart_bootstrap_example/lib/app_component.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

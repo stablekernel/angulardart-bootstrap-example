@@ -1,0 +1,183 @@
+{
+  "ngDeps": {
+    "1": "bs_table_directives",
+    "3": [
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "dart:math",
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:dson/dson.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "BsColumnDirective",
+        "5": [
+          {
+            "1": "BsTableComponent",
+            "4": "_tableComponent"
+          }
+        ],
+        "6": [
+          "OnInit"
+        ]
+      },
+      {
+        "1": "BsTableComponent"
+      }
+    ],
+    "6": "table_directives.dart"
+  },
+  "type": {
+    "BS_TABLE_DIRECTIVES": {
+      "class": "Identifier",
+      "name": "BS_TABLE_DIRECTIVES",
+      "moduleUrl": "asset:ng_bootstrap/lib/components/table/table_directives.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "BsTableComponent",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BsColumnDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ]
+    },
+    "BsColumnDirective": {
+      "class": "Directive",
+      "isComponent": false,
+      "selector": "bs-column",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "BsColumnDirective",
+        "moduleUrl": "asset:ng_bootstrap/lib/components/table/table_directives.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "BsTableComponent",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "query": null,
+            "viewQuery": null,
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {
+        "sort": "sort",
+        "fieldName": "fieldName",
+        "header": "header"
+      },
+      "inputTypes": {
+        "sort": " String",
+        "fieldName": " String",
+        "header": " String"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        0
+      ],
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "BsTableComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "bs-table",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "BsTableComponent",
+        "moduleUrl": "asset:ng_bootstrap/lib/components/table/table_directives.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {
+        "rows": "rows",
+        "sortable": "sortable",
+        "itemsPerPage": "itemsPerPage",
+        "pageNumber": "pageNumber"
+      },
+      "inputTypes": {
+        "rows": " List",
+        "sortable": " bool",
+        "itemsPerPage": " num",
+        "pageNumber": " num"
+      },
+      "outputs": {
+        "tableChanged": "tableChanged",
+        "pageNumberChange": "pageNumberChange",
+        "totalItemsChange": "totalItemsChange"
+      },
+      "hostListeners": {
+        "pageNumberChange": "updatePage()"
+      },
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<table class=\"table table-striped table-bordered dataTable\"\n       role=\"grid\" style=\"width: 100%;\">\n  <thead>\n  <tr role=\"row\">\n    <th *ngFor=\"let column of columns\" (click)=\"toggleSort(column, $event)\">\n      {{column.header}}\n      <i *ngIf=\"sortable && column.sort != null\" class=\"pull-right fa\"\n        [ngClass]=\"{'fa-chevron-down': column.sort == 'DES', 'fa-chevron-up': column.sort == 'ASC'}\"></i>\n    </th>\n  </tr>\n  </thead>\n  <tbody>\n  <tr *ngFor=\"let row of rowsPage\">\n    <td *ngFor=\"let column of columns\">{{getData(row, column.fieldName)}}</td>\n  </tr>\n  </tbody>\n</table>\n",
+        "templateUrl": "asset:ng_bootstrap/lib/components/table/table_directives.dart",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {
+    "BS_TABLE_DIRECTIVES": [
+      "BsTableComponent",
+      "BsColumnDirective"
+    ]
+  }
+}
